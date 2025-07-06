@@ -1,12 +1,37 @@
-# React + Vite
+# 🧩 Dynamic Data Table Manager
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A powerful and interactive data table built with **React**, **Redux Toolkit**, and **Material UI**.  
+Includes features like user management, dynamic column control, search, sorting, pagination, CSV import/export, and persistent settings.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+- ✅ **Add User** via modal form
+- ✅ **Dynamic Columns** (Add new fields + show/hide)
+- ✅ **Global Search** (case-insensitive)
+- ✅ **Delete Rows**
+- ✅ **Column Sorting** (ASC/DESC toggle)
+- ✅ **Client-side Pagination** (10 rows per page)
+- ✅ **CSV Export** (download table as CSV)
+- ✅ **CSV Import** (upload rows via CSV file)
+- ✅ **Persist Column Visibility** using `localStorage`
+- ✅ **Redux Toolkit** for global state management
+- ✅ **Error Handling** for invalid file formats
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🧰 Tech Stack
+
+- ⚛️ React
+- 🧠 Redux Toolkit
+- 🎨 Material UI (MUI)
+- 📦 PapaParse (CSV handling)
+- 💾 FileSaver.js (CSV download)
+- 💡 Vite (build tool)
+
+---
+
+## 📦 Folder Structure
+
+
